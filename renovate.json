@@ -36,12 +36,17 @@
       "groupName": "com.helger"
     },
     {
+      "matchPackagePrefixes": ["io.burt"],
+      "groupName": "io.burt"
+    },
+    {
       "matchPackagePrefixes": ["net.minidev:accessors-smart", "net.minidev:json-smart"],
       "groupName": "net.minidev json-smart"
     },
     {
       "matchPackagePrefixes": ["com.miglayout"],
-      "groupName": "com.miglayout"
+      "groupName": "com.miglayout",
+      "allowedVersions": "< 11.0"
     },
     {
       "matchPackagePrefixes": ["org.ajoberstar.grgit"],
@@ -92,6 +97,10 @@
     {
       "matchPackagePrefixes": ["org.jodd"],
       "groupName": "org.jodd"
+    },
+    {
+      "matchPackagePrefixes": ["org.openjdk.jmh"],
+      "groupName": "org.openjdk.jmh"
     },
     {
       "matchPackagePrefixes": ["org.slf4j"],

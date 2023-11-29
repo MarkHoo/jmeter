@@ -26,6 +26,8 @@
     <trusted-key id='a4fd709cc4b0515f2e6af04e218fa0f6a941a037' group='com.github.kevinstern' />
     <trusted-key id='160a7a9cf46221a56b06ad64461a804f2609fd89' group='com.github.shyiko.klob' />
     <trusted-key id='9857c388d7d1d9d031274cd0a5def5a76f94a471' group='com.github.spotbugs' />
+    <trusted-key id='9857c388d7d1d9d031274cd0a5def5a76f94a471' group='com.github.spotbugs.snom' />
+    <trusted-key id='042b29e928995b9db963c636c7ca19b7b620d787' group='com.github.stephenc.jcip' />
     <trusted-key id='e05f005af50ae94e69701222b9729775c0352d3a' group='com.github.tomakehurst' />
     <trusted-key id='d112630c899f508198c09018105cb91cac2aee0e' group='com.github.vlsi.gradle' />
     <trusted-key id='b0255b26003ef6f82491acd7254e9c64c264c176' group='com.github.weisj' />
@@ -125,6 +127,8 @@
     <trusted-key id='2db4f1ef0fa761ecc4ea935c86fdc7e2a11262cb' group='org.apache.commons' />
     <trusted-key id='3692c12c7e3d336a452beb254e066e0459cd109b' group='org.apache.commons' />
     <trusted-key id='41a1a08c62fca78b79d3081164a16faaec16a4be' group='org.apache.commons' />
+    <trusted-key id='4e2ddd47e19863bb87211544cd3038fef07d567e' group='org.apache.commons' />
+    <trusted-key id='b6e73d84ea4fcc47166087253faad2cd5ecbb314' group='org.apache.commons' />
     <trusted-key id='ce8075a251547bee249bc151a2115ae15f6b8b72' group='org.apache.commons' />
     <trusted-key id='d6f1bc78607808ec8e9f69437a8860944fad5f62' group='org.apache.commons' />
     <trusted-key id='4d2db2916149baa9d0c92f3731474e5e7c6b7034' group='org.apache.ftpserver' />
@@ -132,11 +136,14 @@
     <trusted-key id='0785b3eff60b1b1bea94e0bb7c25280eae63ebe5' group='org.apache.httpcomponents' />
     <trusted-key id='0785b3eff60b1b1bea94e0bb7c25280eae63ebe5' group='org.apache.httpcomponents.client5' />
     <trusted-key id='0785b3eff60b1b1bea94e0bb7c25280eae63ebe5' group='org.apache.httpcomponents.core5' />
+    <trusted-key id='077e8893a6dcc33dd4a4d5b256e73ba9a0b592d0' group='org.apache.logging.log4j' />
     <trusted-key id='53c935821aa6a755bd337db53595395eb3d8e1ba' group='org.apache.logging.log4j' />
+    <trusted-key id='fa77dcfef2ee6eb2debedd2c012579464d01c06a' group='org.apache.maven.doxia' />
     <trusted-key id='4d2db2916149baa9d0c92f3731474e5e7c6b7034' group='org.apache.mina' />
     <trusted-key id='6bfab2e3c6490b421b25c76c9c8c892f91f8e6d1' group='org.apache.rat' />
     <trusted-key id='184454fad8697760f3e00d2e4a51a45b944ffd51' group='org.apache.tika' />
     <trusted-key id='7b9751fc3f01f134f476464cd0eb627d4885ced1' group='org.apache.velocity' />
+    <trusted-key id='223d3a74b068eca354dc385ce126833f9cf64915' group='org.apache.xbean' />
     <trusted-key id='82d8419ba697f0e7fb85916ee91287822fdb81b1' group='org.apache.xbean' />
     <trusted-key id='c758f9cc982ac877e7b295dd6e97418b04b11dcb' group='org.apache.xbean' />
     <trusted-key id='5c9a30ff22b2c02f30261c305b93f1df7cdb6dea' group='org.apache.xmlgraphics' />
@@ -148,6 +155,8 @@
     <trusted-key id='7faa0f2206de228f0db01ad741321490758aad6f' group='org.codehaus.groovy' />
     <trusted-key id='82f833963889d7ed06f1e4dc6525fd70cc303655' group='org.codehaus.mojo' />
     <trusted-key id='f254b35617dc255d9344bcfa873a8e86b4372146' group='org.codehaus.mojo' />
+    <trusted-key id='b02137d875d833d9b23392ecae5a7fb608a0221c' group='org.codehaus.plexus' />
+    <trusted-key id='fa77dcfef2ee6eb2debedd2c012579464d01c06a' group='org.codehaus.plexus' />
     <trusted-key id='6214760097dc5cfad0175ac2c9fbaa83a8753994' group='org.codehaus.woodstox' />
     <trusted-key id='8f9a3c6d105b9f57844a721d79e193516be7998f' group='org.dom4j' />
     <trusted-key id='2e92113263fc31c74ccbaab20e91c2de43b72bb1' group='org.ec4j.core' />
@@ -238,11 +247,17 @@
     <dependency group='com.github.vlsi.gradle' module='stage-vote-release-plugin' version='1.85'>
       <sha512>2F70DA03A8F8ECF0F92C7B8B219321DFE9C8926DC55BF343662B043F277C7F63090B1B7E06F963606D9D9228E3FA4245393E2D3773DFD3D059136EB65D2E7998</sha512>
     </dependency>
+    <dependency group='com.google.collections' module='google-collections' version='1.0'>
+      <sha512>5741BCDF5C2D54DAA53A60972D61D0FB3ACB68A31AB4A913832DE71C47B4ABD59B85E760A335D7EFDE55D4E309824839B09F9224A43C124BD54C634A87A9B7F7</sha512>
+    </dependency>
     <dependency group='commons-logging' module='commons-logging' version='1.0.4'>
       <sha512>C8D2D39A60ADCC49091D393DAF30473D1776E4B6B09BB86639171F660833A17AFBDC9F3E85843093535DA16FA664CD7CD4CA38F54E141018DD1B78DE681AD668</sha512>
     </dependency>
     <dependency group='de.marcphilipp.gradle' module='nexus-publish-plugin' version='0.4.0'>
       <sha512>37EC6DFBDDD0458A2A341E371D038B3B0A25AB2F9006B295EBCF3BDE873A8D02C8CDAA6C69D875500F67593C618E8EF62C0269FB2F7F527A1367A7D6B8EA3CBE</sha512>
+    </dependency>
+    <dependency group='de.thetaphi' module='forbiddenapis' version='3.6'>
+      <sha512>B9D779B085611E8122FB1F30952E1DD1EE1456AF11EAED24F7182B73EFF1E648862912849F1CE53CD8CDA8313F7CDB2E88BA959C3868418359BB98E59CD2E5D7</sha512>
     </dependency>
     <dependency group='gradle.plugin.com.github.spotbugs.snom' module='spotbugs-gradle-plugin' version='4.5.0'>
       <sha512>36557C04B8FC7DC446B5FBDD6383A1B7281708B424C3039E7EC11807F3BB9A5E2764BE4BEC1D717C38595B12D8B291CB2A002D85B5E79DC9A9A4CBD27C58C7BB</sha512>
@@ -265,8 +280,8 @@
     <dependency group='javax.inject' module='javax.inject' version='1'>
       <sha512>E126B7CCF3E42FD1984A0BEEF1004A7269A337C202E59E04E8E2AF714280D2F2D8D2BA5E6F59481B8DCD34AAF35C966A688D0B48EC7E96F102C274DC0D3B381E</sha512>
     </dependency>
-    <dependency group='me.champeau.jmh' module='jmh-gradle-plugin' version='0.7.1'>
-      <sha512>D0B6A85CA7261FCEF0B2796F8FAD16C1044822AFE5ECD896B1103D7015FF690E806EC969B01150E9CA3FF96607AB53B6468ED2D5F3260C019CAE953B2291E7A4</sha512>
+    <dependency group='me.champeau.jmh' module='jmh-gradle-plugin' version='0.7.2'>
+      <sha512>E433E221C9167BB937EC0DF7626B5BBBE99E08C566A6D54BA7D2E04252DD452B4CA957B57E687F85F958DF0CE12678E17D0BCB527E1077770C8B7390CE58F56C</sha512>
     </dependency>
     <dependency group='net.jcip' module='jcip-annotations' version='1.0'>
       <sha512>CB312B3F571D91EF183C119D878F50464FFD97F853B7311CBA386463F295E8B7B3A5A89ED4269A045CACD5AA7CB4C803D4882854A0FDDEFA9BBC28C72AA6C786</sha512>
@@ -298,11 +313,14 @@
     <dependency group='org.checkerframework' module='checkerframework-gradle-plugin' version='0.6.28'>
       <sha512>976E7FECDEC7793A0E44562972DC86D16416913DD58C9A9A24A69DC7A32E2FC7B651505E6916F6CC50D91EC82629284C58AFCBB233277E7635B8777DA07F228C</sha512>
     </dependency>
+    <dependency group='org.checkerframework' module='checkerframework-gradle-plugin' version='0.6.35'>
+      <sha512>D1C1FFD932AA64A2961FD07DD7124E7561CB33ED4CB586AA0036BD4C39A192C718420E8DD3719B90994754E2ADE2F77876CC221B73B4333EBADCBD4C37C7A458</sha512>
+    </dependency>
     <dependency group='org.codehaus.groovy.modules.http-builder' module='http-builder' version='0.7.1'>
       <sha512>BC7BC2A514F8CA104A392ECF8736F4A3D316EE988FA91299D33B0AF46134B38E14E4A5061449D17B2DF7A521643E6C02DFA37CC277ED7CAB7CE83C28C00E9719</sha512>
     </dependency>
-    <dependency group='org.gradle.kotlin' module='gradle-kotlin-dsl-plugins' version='4.0.7'>
-      <sha512>2304C8B72245837B42332431311970083BF0E03CA13128808AD8B4739ECDCDC43BF089256F6ED29BFD31FE859DA76BBA3FB61737EF0B8A380C75AA67AF7A8382</sha512>
+    <dependency group='org.gradle.kotlin' module='gradle-kotlin-dsl-plugins' version='4.1.2'>
+      <sha512>B23C4355CBAB2098506528D196F6C9A71D4689F4A3334494B97D9F6D868883D429D851FC319761C25ACC86F0C4E02F028B33C1868B6EF7BA1246E3D79ADF1582</sha512>
     </dependency>
     <dependency group='org.jetbrains.kotlin' module='kotlin-gradle-plugin' version='1.8.21'>
       <sha512>09D6B646399888DBD6498D24C2B6FABBEF49444FD0710E8F93FE266FFFD11A4A2C1CFEE3431D52AD03CA781E2EFAB60896DCA53AE56924AA0C48F9C85FCE66BB</sha512>
@@ -325,8 +343,8 @@
     <dependency group='org.jetbrains.kotlinx' module='kotlinx-coroutines-core' version='1.7.1'>
       <sha512>89CA3D64D42938DCB50AC58CD53D1DAEAF6EA0BF69CC01DEFE7467D2D1F23BE7932D005861A6E08C2C81980EE1F8EFB9A944B939FE02AF99518753704383C086</sha512>
     </dependency>
-    <dependency group='org.nosphere.apache' module='creadur-rat-gradle' version='0.8.0'>
-      <sha512>F9C0C770036768965D955BF849933DFA1B5805959D0C93C2C70DA31D67C200140CAC7B9B93CF28B3F86AA3A5993DD25D566E37B0C451264CB0F6F2B5CD88F760</sha512>
+    <dependency group='org.nosphere.apache' module='creadur-rat-gradle' version='0.8.1'>
+      <sha512>397C3257C5448C26304B312212F6DA1649AD15E52CE0419C5BA647F8A68864707A0C8071FA9860C28AA9D626D66C8FAF2D5F576E693F9D01B0F71EEEB84B57FB</sha512>
     </dependency>
     <dependency group='org.ow2.asm' module='asm-analysis' version='6.2.1'>
       <sha512>BE273F8E886BBCFDA81180917145996AB8FD26A17264EBEB5E1FC2337950A309D64DC8CBD373220009728622A8CBF56B8578E960B5561C22EA66848D296AE44E</sha512>
@@ -372,6 +390,9 @@
     </dependency>
     <dependency group='org.sonarsource.scanner.gradle' module='sonarqube-gradle-plugin' version='4.0.0.2929'>
       <sha512>5CD9C5E9C91145E6F5FC1DA819F6241ADCE8685C6C71F480CB7F7F1D2ACFCDFD19C631E7DC2E9FDDEDBA840C6063A020A377644C80543A9E366DF65642F16F8C</sha512>
+    </dependency>
+    <dependency group='org.sonarsource.scanner.gradle' module='sonarqube-gradle-plugin' version='4.4.1.3373'>
+      <sha512>3FDE80F4F005B5BABF6F278C6B4C7BEA4A00603BF9C44C3026334BFBE0B64E1F767C92295614D6A5AEF61692844F0FE7DBB0F8119F58EABF522FCEC6904272E8</sha512>
     </dependency>
     <dependency group='oro' module='oro' version='2.0.8'>
       <sha512>9A98E493C4D771322B1331EC05AB0E363A83D8AC2AF8018D96A44DF2BF5BFC97D33EBE6F6F93E46AB10BF1536F0C29E9D9569318ED49BC18B4E96B1A8B476D37</sha512>
