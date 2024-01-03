@@ -40,9 +40,6 @@ public abstract class BeanShellSamplerSchema : TestElementSchema() {
     public val parameters: StringPropertyDescriptor<BeanShellSamplerSchema>
         by string("BeanShellSampler.parameters")
 
-    public val initFile: StringPropertyDescriptor<BeanShellSamplerSchema>
-        by string("beanshell.sampler.init")
-
     public val filename: StringPropertyDescriptor<BeanShellSamplerSchema>
         by string("BeanShellSampler.filename")
 }

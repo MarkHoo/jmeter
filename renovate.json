@@ -32,6 +32,12 @@
       "groupName": "com.google.errorprone"
     },
     {
+      "matchPackageNames": ["com.google.guava:guava"],
+      "groupName": "guava",
+      "matchCurrentVersion": "0",
+      "enabled": false
+    },
+    {
       "matchPackagePrefixes": ["com.helger"],
       "groupName": "com.helger"
     },
@@ -106,12 +112,6 @@
       "matchPackagePrefixes": ["org.slf4j"],
       "groupName": "org.slf4j",
       "allowedVersions": "< 2.0.0"
-    },
-    {
-      "matchPackagePrefixes": ["org.spockframework"],
-      "groupName": "org.spockframework",
-      "description": "TODO: change when we upgrade to Groovy 4.0",
-      "allowedVersions": "/.*-groovy-3.0/"
     },
     {
       "matchPackagePatterns": ["^src:protocol"],
